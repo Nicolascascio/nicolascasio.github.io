@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+  <hr>
+  <div class="navbar__container">
+    <a href="./index.html" class="logo__navbar"><img class="logo__navbar" src="./imagen/redes iconos/logo.jpg"></a >
+    <nav class="navbar">
+        <ul class="navbar__list">
+            
+          <li class="navbar__listItem"><a href="./index.html " class="header__menuItem">inicio</a></li>
+
+                <li class="navbar__listItem"><a href="./servicio.html"class="header__menuItem">Servicios</a></li>
+
+                <li class="navbar__listItem"> <a href="./galeria.html"class="header__menuItem">Galeria</a></li>
+                
+                <li class="navbar__listItem"> <a href="./equipo.html"class="header__menuItem">Equipo</a></li>
+
+                <li class="navbar__listItem">   <a href="./contacto.html" class="header__menuItem header__menuItem--active">Contacto</a></li>
+
+        </ul>
+
+    </nav>
+</div>
+</header>
+<hr>
+
+        
+
+
+
+
+
+    <br>
+    <br>
+    <h4 class=" contactanos1">¡CONTACTANOS!</h4>
+
+    <div class="contact_form">
+
+      <div class="formulario">      
+        <h1 class="formulario">Formulario de contacto</h1>
+          <h3 class="formulario2">Escríbenos y en breve nos pondremos en contacto </h3>
+  
+  
+            <form action="submeter-formulario.php" method="post">       
+  
+              
+                  <p clas="textContacto">
+                    <label   for="nombre" class="colocar_nombre">Nombre
+                      <span class="obligatorio"></span>
+                    </label>
+                      <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                  </p>
+                
+                  <p clas="textContacto">
+                    <label for="email" class="colocar_email">Email
+                      <span class="obligatorio"></span>
+                    </label>
+                      <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                  </p>
+              
+                  <p clas="textContacto">
+                    <label  for="telefone" class="colocar_telefono">Teléfono
+                    </label>
+                      <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                  </p>    
+                
+                   
+                
+                  <p>
+                    <label  for="asunto" class="colocar_asunto">Asunto
+                      <span class="obligatorio"></span>
+                    </label>
+                      <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                  </p>    
+                
+                  <p clas="textContacto">
+                    <label  for="mensaje" class="colocar_mensaje">Mensaje
+                      <span class="obligatorio"></span>
+                    </label>                     
+                                      <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                  </p>                    
+                
+                  <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+  
+                  <p clas="textContacto" class="aviso">
+                    <span class="obligatorio"> </span>los campos son obligatorios.
+                  </p>          
+              
+            </form>
+      </div>  
+    </div>
+      
+      </form>
+
+      
+
+    
+</body>
+</html>

@@ -1,0 +1,37 @@
+.maps{
+    position: relative;
+    left: 10%;
+    width: 80%;
+    
+   }
+   .servicio__text{
+    font-family: 'Bad Script', cursive;
+    font-size: 130%;
+    margin: 20px;
+   }
+   .__title{
+    font-size: 2.5rem;
+    font-weight:400;
+    font-family: 'Bad Script', cursive;
+  font-size: 180%;
+  padding: 10px;
+   
+   }
+
+   
+   @media(max-width:900px){
+    .__title{
+      font-size: 1rem;
+      font-weight:bold
+  }
+  .servicio__text{
+    font-family: 'Bad Script', cursive;
+    font-size: 130%;
+    line-height: 120%;
+   }
+   .maps{
+    position: center;
+   margin: 5%;
+    width: 80%;
+    
+   }}

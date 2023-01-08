@@ -1,0 +1,52 @@
+.equipo__text{
+    font-family: 'Bad Script', cursive;
+    font-size: 130%;
+    margin: 20px;
+  }
+  .img_fundadora {
+    width: 15%;
+    height: 15%;
+    margin: 20px;
+   
+    }
+    .nombreFundadora{
+      margin: 20px;
+      font-family: 'Bad Script', cursive;
+      font-size: 25px;
+    }
+    .fundadoraTitle{
+      margin: 20px;
+      font-family: 'Bad Script', cursive;
+    }
+    
+    @media(max-width:1000px){
+      .img_fundadora {
+        width: 20%;
+        height: 20%;
+       
+    }
+    }
+    @media(max-width:800px){
+      .img_fundadora {
+        width: 30%;
+        height: 30%;
+    }
+    }
+    @media(max-width:500px){
+      .img_fundadora {
+        width: 40%;
+        height: 40%;
+    }
+    }
+    @media(max-width:350px){
+      .img_fundadora {
+        width: 50%;
+        height: 50%;
+    }
+    }
+    @media(max-width:270px){
+      .img_fundadora {
+        width: 70%;
+        height: 70%;
+    }
+    }
